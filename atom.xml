@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Coffeey.github.io</id>
+    <id>https://coffeey.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-11T14:54:09.063Z</updated>
+    <updated>2020-05-11T14:57:26.924Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Coffeey.github.io"/>
-    <link rel="self" href="https://Coffeey.github.io/atom.xml"/>
+    <link rel="alternate" href="https://coffeey.github.io"/>
+    <link rel="self" href="https://coffeey.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://Coffeey.github.io/images/avatar.png</logo>
-    <icon>https://Coffeey.github.io/favicon.ico</icon>
+    <logo>https://coffeey.github.io/images/avatar.png</logo>
+    <icon>https://coffeey.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[test]]></title>
-        <id>https://Coffeey.github.io/post/test/</id>
-        <link href="https://Coffeey.github.io/post/test/">
+        <id>https://coffeey.github.io/post/test/</id>
+        <link href="https://coffeey.github.io/post/test/">
         </link>
         <updated>2020-05-11T11:45:39.000Z</updated>
         <content type="html"><![CDATA[<p>第一次写博客，搭建博客，可能是想满足自己的心理吧。</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://Coffeey.github.io/post/hello-gridea/</id>
-        <link href="https://Coffeey.github.io/post/hello-gridea/">
+        <id>https://coffeey.github.io/post/hello-gridea/</id>
+        <link href="https://coffeey.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
