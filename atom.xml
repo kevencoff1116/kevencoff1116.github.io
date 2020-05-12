@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kevencoff1116.github.io</id>
     <title>coffeey的blog</title>
-    <updated>2020-05-12T07:02:03.693Z</updated>
+    <updated>2020-05-12T07:55:40.534Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kevencoff1116.github.io"/>
     <link rel="self" href="https://kevencoff1116.github.io/atom.xml"/>
@@ -10,6 +10,66 @@
     <logo>https://kevencoff1116.github.io/images/avatar.png</logo>
     <icon>https://kevencoff1116.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, coffeey的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[怎么使用Gridea做blog]]></title>
+        <id>https://kevencoff1116.github.io/post/zen-me-shi-yong-gridea-zuo-blog/</id>
+        <link href="https://kevencoff1116.github.io/post/zen-me-shi-yong-gridea-zuo-blog/">
+        </link>
+        <updated>2020-05-12T07:02:16.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>如果没有说这种使用自己域名（可以理解成网址吧）的需求，搭建博客是完全免费的</p>
+</blockquote>
+<p>其实最开始我一点都没想写个博客，但是受到了网络环境的熏陶，再加上我这个人爱折腾，毕竟以前也折腾黑苹果嘛，以后也可能做一个黑苹果的步骤教学什么的，以前用过变色龙，clover什么的，现在感觉得补一下OC了，然后写一下博客；这类文章就分类到折腾里吧。</p>
+<p>进入正题，博客是一个刺激你去写一点东西的地方，平时大多都是知识的输入，而且对于输入的效果其实都不清楚；而博客可以检验你是否学会一些东西，还有一些思考。</p>
+<h2 id="安装步骤">安装步骤</h2>
+<ol>
+<li><a href="http://www.github.com">GitHub</a>网站</li>
+<li>下载安装<a href="http://gridea.dev">Gridea</a></li>
+<li>github搭建仓库</li>
+<li>设置Token</li>
+<li>配置gridea并同步</li>
+<li>更换主题</li>
+</ol>
+<h2 id="注册github安装gridea">注册GitHub，安装Gridea</h2>
+<p>进入GitHub官网，像注册一般的论坛一样注册GitHub就可以了。</p>
+<p>安装Gridea，如果上面的链接下载速度慢的话，可以使用下面的下载源，接下来按照步骤安装就可以了。</p>
+<figure data-type="image" tabindex="1"><img src="https://kevencoff1116.github.io/post-images/1589270027916.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>网上有的老版本说需要下载Git，但其实Git已经被集成进去了，官网上教程的也进行了更新。</p>
+</blockquote>
+<h2 id="github搭建仓库">github搭建仓库</h2>
+<p>点击下面的链接就可以进入到当前账号的仓库；</p>
+<figure data-type="image" tabindex="2"><img src="https://kevencoff1116.github.io/post-images/1589269997238.png" alt="" loading="lazy"></figure>
+<p>点击新建：</p>
+<figure data-type="image" tabindex="3"><img src="https://kevencoff1116.github.io/post-images/1589270037557.png" alt="" loading="lazy"></figure>
+<p>这个界面要注意以下几点：</p>
+<ol>
+<li>Repository name一定要以<code>.github.io</code>结尾</li>
+<li>Repository name <code>.github.io</code>之前的名字最好为Owner的名字，否则GitHub不会默认开通Github Pages，而且即使开通，网址很复杂，所以最好命名为Owner的名字。</li>
+<li>不要选择<code>Private</code>，<code>Public</code>是默认选项，不动就行了。</li>
+</ol>
+<p>这样github仓库就建立好了。</p>
+<figure data-type="image" tabindex="4"><img src="https://kevencoff1116.github.io/post-images/1589270057062.png" alt="" loading="lazy"></figure>
+<h2 id="设置token">设置Token</h2>
+<p>这里的Token和坚果云的那个密钥差不多，就是有权限来更改你的仓库。</p>
+<p>按照以下步骤进行点击即可：</p>
+<figure data-type="image" tabindex="5"><img src="https://kevencoff1116.github.io/post-images/1589270064880.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://kevencoff1116.github.io/post-images/1589270071517.png" alt="" loading="lazy"></figure>
+<p>这时会让你输入密码确认：</p>
+<figure data-type="image" tabindex="7"><img src="https://kevencoff1116.github.io/post-images/1589270079356.png" alt="" loading="lazy"></figure>
+<p>只选择<code>repo</code>就可以了，其余的不要选。</p>
+<figure data-type="image" tabindex="8"><img src="https://kevencoff1116.github.io/post-images/1589270097487.png" alt="" loading="lazy"></figure>
+<p>点击下面的<code>Generate</code>就可以了。</p>
+<figure data-type="image" tabindex="9"><img src="https://kevencoff1116.github.io/post-images/1589270103766.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>得到密钥后，切记要把红框中的字符存起来，因为后面要使用，关闭界面之后就不会再显示了，只能重新申请了。</p>
+</blockquote>
+<h2 id="配置gridea并同步">配置gridea并同步</h2>
+<p>进入gridea，点击远程，平台选择第一个（这个应该是最简单的），域名填写Repository name，仓库名称是一样的；仓库如果并没有修改，就填<code>master</code>，用户名填写账户名，邮箱随意，令牌填写刚才的Token，CNAME如果你没有申请自己的域名，就不要填写。</p>
+<figure data-type="image" tabindex="10"><img src="https://kevencoff1116.github.io/post-images/1589270111003.png" alt="" loading="lazy"></figure>
+<p>配置好之后，点击检测远程链接，并保存，最后点击一下左下角的同步，就成功的拥有了你自己的博客啦！！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[test]]></title>
         <id>https://kevencoff1116.github.io/post/test/</id>
