@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kevencoff1116.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-05-12T06:58:34.672Z</updated>
+    <title>coffeey的blog</title>
+    <updated>2020-05-12T06:59:24.222Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kevencoff1116.github.io"/>
     <link rel="self" href="https://kevencoff1116.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>想做就去做。</subtitle>
     <logo>https://kevencoff1116.github.io/images/avatar.png</logo>
     <icon>https://kevencoff1116.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, coffeey的blog</rights>
     <entry>
         <title type="html"><![CDATA[test]]></title>
         <id>https://kevencoff1116.github.io/post/test/</id>
